@@ -1,6 +1,6 @@
-import React, { ReactNode } from 'react';
-import { resumeData } from '@/lib/data';
-import Footer from '@/components/footer';
+import React, { ReactNode } from "react";
+import { resumeData } from "@/lib/data";
+import Footer from "@/components/footer";
 
 export const revalidate = false;
 
@@ -24,9 +24,8 @@ interface WorkExperience {
   description: Contribution[];
 }
 
-// Animation component using CSS animations
 const AnimateInView: React.FC<AnimateInViewProps> = ({ children }) => {
-  return <div className={'come-into-view'}>{children}</div>;
+  return <div className={"come-into-view"}>{children}</div>;
 };
 
 const Tag = ({
@@ -34,7 +33,7 @@ const Tag = ({
   index,
 }: React.PropsWithChildren<{ index: number }>) => (
   <div
-    style={{ '--slide-in-delay': `${index * 0.1}ms` } as any}
+    style={{ "--slide-in-delay": `${index * 0.1}ms` } as any}
     className="inline-block slide-in-animation bg-gray-800 text-white text-xs px-2 py-1 rounded-md mr-2 mb-2"
   >
     {children}
@@ -50,7 +49,6 @@ export default function MainPage(): React.JSX.Element {
     education,
   } = resumeData;
 
-  // Modified skills section to use AnimateInView for each skill
   const renderSkills = () => {
     return skills.map((skill: string, index: number) => (
       <div key={index}>
@@ -62,7 +60,6 @@ export default function MainPage(): React.JSX.Element {
   return (
     <main className="relative min-h-screen py-16 px-4 sm:px-8 md:px-16 lg:px-24 bg-zinc-900 text-white">
       <div className="max-w-5xl mx-auto">
-        {/* Hero Section */}
         <AnimateInView>
           <div className="mb-16 border-b border-gray-800 pb-8">
             <h1 className="text-4xl md:text-6xl font-bold mb-4 text-gradient bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-600">
@@ -90,7 +87,6 @@ export default function MainPage(): React.JSX.Element {
           </div>
         </AnimateInView>
 
-        {/* Professional Summary */}
         <AnimateInView>
           <section className="mb-16">
             <div className="w-fit mb-8">
@@ -105,7 +101,6 @@ export default function MainPage(): React.JSX.Element {
           </section>
         </AnimateInView>
 
-        {/* Work Experience */}
         <section className="mb-16">
           <div className="w-fit mb-8">
             <h2 className="text-2xl font-semibold inline-block pb-1">
@@ -191,7 +186,6 @@ export default function MainPage(): React.JSX.Element {
           </div>
         </section>
 
-        {/* Skills */}
         <section className="mb-16">
           <div className="w-fit mb-8">
             <h2 className="text-2xl font-semibold inline-block pb-1">Skills</h2>
@@ -200,7 +194,6 @@ export default function MainPage(): React.JSX.Element {
           <div className="flex flex-wrap gap-2">{renderSkills()}</div>
         </section>
 
-        {/* Education */}
         <AnimateInView>
           <section className="mb-16">
             <div className="w-fit mb-8">
@@ -222,7 +215,6 @@ export default function MainPage(): React.JSX.Element {
           </section>
         </AnimateInView>
 
-        {/* Footer */}
         <Footer />
       </div>
     </main>
