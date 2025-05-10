@@ -88,7 +88,7 @@ export default function MainPage(): React.JSX.Element {
         </AnimateInView>
 
         <AnimateInView>
-          <section className="mb-16">
+          <section className="mb-14">
             <div className="w-fit mb-8">
               <h2 className="text-2xl font-semibold inline-block pb-1">
                 Professional Summary
