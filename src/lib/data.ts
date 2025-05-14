@@ -4,7 +4,9 @@ const projects = {
       name: "Taseeb Counter",
       tags: ["JavaScript", "HTML", "CSS", "Utility", "Islamic"],
       thumbnail: "",
-      previews: [""],
+      previews: [
+        "https://ik.imagekit.io/c3l9vc9yj/tasbeeh.png?updatedAt=1747251540273",
+      ],
       short_description:
         "A digital Tasbeeh counter to keep track of your dhikr (remembrance of Allah).",
       long_description:
@@ -17,7 +19,9 @@ const projects = {
       name: "Gazbo",
       tags: ["JavaScript", "HTML", "CSS", "E-commerce"],
       thumbnail: "",
-      previews: [""],
+      previews: [
+        "https://ik.imagekit.io/c3l9vc9yj/gazbo.png?updatedAt=1747252842090",
+      ],
       short_description:
         "A responsive men's fashion e-commerce website clone with core shopping functionalities.",
       long_description:
@@ -31,7 +35,9 @@ const projects = {
       name: "Code Snippet Saver",
       tags: ["JavaScript", "HTML", "CSS", "Productivity", "Tooling"],
       thumbnail: "",
-      previews: [""],
+      previews: [
+        "https://ik.imagekit.io/c3l9vc9yj/codesaver.png?updatedAt=1747251758803",
+      ],
       short_description:
         "A simple snippet manager to save, view, and delete code snippets.",
       long_description:
@@ -44,7 +50,9 @@ const projects = {
       name: "Age Calculator",
       tags: ["JavaScript", "HTML", "CSS", "Utility"],
       thumbnail: "",
-      previews: [""],
+      previews: [
+        "https://ik.imagekit.io/c3l9vc9yj/agecalculator.png?updatedAt=1747251844334",
+      ],
       short_description:
         "A simple web app that calculates a person's age based on their date of birth.",
       long_description:
@@ -57,7 +65,9 @@ const projects = {
       name: "To Do App",
       tags: ["JavaScript", "HTML", "CSS", "Productivity"],
       thumbnail: "",
-      previews: [""],
+      previews: [
+        "https://ik.imagekit.io/c3l9vc9yj/todo.png?updatedAt=1747251970072",
+      ],
       short_description:
         "A simple and functional to-do list app with add, edit, and delete capabilities.",
       long_description:
@@ -70,7 +80,9 @@ const projects = {
       name: "Connectify",
       tags: ["React", "JavaScript", "Tailwind CSS", "Social Media", "Frontend"],
       thumbnail: "",
-      previews: [""],
+      previews: [
+        "https://ik.imagekit.io/c3l9vc9yj/conectify.png?updatedAt=1747252115140",
+      ],
       short_description:
         "A social media platform built with React and Tailwind CSS, featuring posts, likes, and comments.",
       long_description:
@@ -90,7 +102,9 @@ const projects = {
         "Data Science",
       ],
       thumbnail: "",
-      previews: [""],
+      previews: [
+        "https://ik.imagekit.io/c3l9vc9yj/salaryPredictor.png?updatedAt=1747252294445",
+      ],
       short_description:
         "An AI-powered tool to predict developer salaries based on 2020 data and country selection.",
       long_description:
@@ -103,7 +117,9 @@ const projects = {
       name: "Calculator",
       tags: ["JavaScript", "HTML", "CSS", "Utility"],
       thumbnail: "",
-      previews: [""],
+      previews: [
+        "https://ik.imagekit.io/c3l9vc9yj/calculator.png?updatedAt=1747252389262",
+      ],
       short_description:
         "A basic calculator web app for performing standard arithmetic operations.",
       long_description:
@@ -116,7 +132,9 @@ const projects = {
       name: "FrontFrame",
       tags: ["HTML", "CSS", "Responsive Design", "Practice"],
       thumbnail: "",
-      previews: [""],
+      previews: [
+        "https://ik.imagekit.io/c3l9vc9yj/landingPage.png?updatedAt=1747252945258",
+      ],
       short_description:
         "A simple, responsive landing page built to practice HTML and CSS layout techniques.",
       long_description:
@@ -136,7 +154,9 @@ const projects = {
         "Full Stack",
       ],
       thumbnail: "",
-      previews: [""],
+      previews: [
+        "https://ik.imagekit.io/c3l9vc9yj/beutron.png?updatedAt=1747252584371",
+      ],
       short_description:
         "A full-featured inventory management system built with Next.js, Tailwind, Supabase, and Prisma.",
       long_description:
@@ -158,7 +178,9 @@ const projects = {
         "Real-time",
       ],
       thumbnail: "",
-      previews: [""],
+      previews: [
+        "https://ik.imagekit.io/c3l9vc9yj/leadflow.png?updatedAt=1747252686006",
+      ],
       short_description:
         "A full-stack CRM system with real-time collaboration, reporting, and customer lifecycle management.",
       long_description:
@@ -166,6 +188,27 @@ const projects = {
       try_link: "https://leadflowcrm.vercel.app/",
       source_link: "https://github.com/mansub-dev/Leadflow",
       start_date: "November, 2024",
+    },
+    {
+      name: "PhoSate",
+      tags: [
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "Restaurant",
+        "Framer Motion",
+      ],
+      thumbnail: "",
+      previews: [
+        "https://ik.imagekit.io/c3l9vc9yj/phosate.png?updatedAt=1747252753356",
+      ],
+      short_description:
+        "A restaurant website built with Next.js, Tailwind CSS, framer motion, and shadcn.",
+      long_description:
+        "A restaurant website built with Next.js, Tailwind CSS, framer motion, and shadcn. It features a modern design with smooth animations and a responsive layout. The site showcases the restaurant's menu, location, and contact information, providing an engaging user experience.",
+      try_link: "https://phosate.vercel.app/",
+      source_link: "https://github.com/mansub-dev/phosate",
+      start_date: "May, 2024",
     },
   ],
 };
@@ -176,6 +219,8 @@ export const resumeData = {
     email: "mansubsheikh4@gmail.com",
     linkedin: "https://www.linkedin.com/in/mansub-hafeez-91125b21b/",
     phone: "+92-310-3302763",
+    photo:
+      "https://ik.imagekit.io/c3l9vc9yj/profilepic.jpg?updatedAt=1747253047082",
   },
   professionalSummary:
     "Highly skilled  Front End Developer with a strong background in building scalable, high-performance web and mobile applications using modern technologies. Proven expertise in React.js, Next.js, TypeScript, and Node.js, with extensive experience in UI/UX design, AI-driven development, and browser extensions. Adept at leading projects from concept to deployment, including AI-powered recruiting platforms, inventory management systems, and productivity tools. Passionate about performance optimization, interactive animations (Framer Motion), and integrating AI models to enhance user experiences. Strong problem-solving skills, a deep understanding of software architecture, and a track record of delivering innovative solutions. Looking for a challenging role where I can leverage my technical expertise to contribute to impactful projects.",
@@ -208,68 +253,6 @@ export const resumeData = {
             "Implemented dynamic animations using Framer Motion in Next.js",
             "Built a responsive and accessible user interface",
           ],
-        },
-      ],
-    },
-    {
-      company: "Projects",
-      position: "",
-      period: "",
-      description: [
-        {
-          projectName: "Taseeb Counter",
-          details:
-            "A digital Tasbeeh counter to keep track of your dhikr (remembrance of Allah).",
-        },
-        {
-          projectName: "Gazbo",
-          details:
-            "A responsive men's fashion e-commerce website clone with core shopping functionalities.",
-        },
-        {
-          projectName: "Code Snippet Saver",
-          details:
-            "A simple snippet manager to save, view, and delete code snippets.",
-        },
-        {
-          projectName: "Age Calculator",
-          details:
-            "A simple web app that calculates a person's age based on their date of birth.",
-        },
-        {
-          projectName: "To Do App",
-          details:
-            "A simple and functional to-do list app with add, edit, and delete capabilities.",
-        },
-        {
-          projectName: "Connectify",
-          details:
-            "A social media platform built with React and Tailwind CSS, featuring posts, likes, and comments.",
-        },
-        {
-          projectName: "SalaryPredictor",
-          details:
-            "An AI-powered tool to predict developer salaries based on 2020 data and country selection.",
-        },
-        {
-          projectName: "Calculator",
-          details:
-            "A basic calculator web app for performing standard arithmetic operations.",
-        },
-        {
-          projectName: "FrontFrame",
-          details:
-            "A simple, responsive landing page built to practice HTML and CSS layout techniques.",
-        },
-        {
-          projectName: "Beutron",
-          details:
-            "A full-featured inventory management system built with Next.js, Tailwind, Supabase, and Prisma.",
-        },
-        {
-          projectName: "Leadflow CRM",
-          details:
-            "A full-stack CRM system with real-time collaboration, reporting, and customer lifecycle management.",
         },
       ],
     },
