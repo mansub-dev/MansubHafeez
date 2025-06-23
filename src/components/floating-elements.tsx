@@ -81,7 +81,7 @@ export default function HeroIcons() {
   const [dots, setDots] = React.useState<Dot[]>([]);
 
   React.useEffect(() => {
-    const numDots = 10;
+    const numDots = 7;
     const newDots = Array.from({ length: numDots }).map(() => ({
       top: `${Math.random() * 100}%`,
       left: `${Math.random() * 100}%`,
