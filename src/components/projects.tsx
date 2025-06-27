@@ -148,7 +148,31 @@ const projects = {
       featured: false,
       category: "AI/ML",
     },
-
+    {
+      name: "Expensr",
+      tags: [
+        "Redux",
+        "React js",
+        "JavaScript",
+        "Shadcn",
+        "Framer Motion",
+        "Tailwind CSS",
+        "ExpenseTracker",
+      ],
+      thumbnail: "",
+      previews: [
+        "https://ik.imagekit.io/c3l9vc9yj/expensr.png?updatedAt=1751052214461",
+      ],
+      short_description:
+        "A project just build for the practice of Redux, this app tracks the expenses.",
+      long_description:
+        "A project just build for the practice of Redux, this app tracks the expenses. It allows users to add, edit, and delete expenses, providing a clear overview of their financial activities. The app features a modern UI built with React and Tailwind CSS, utilizing Redux for state management and Shadcn for UI components.",
+      try_link: "https://expensr.vercel.app/",
+      source_link: "https://github.com/mansub-dev/expensr",
+      start_date: "June, 2025",
+      featured: false,
+      category: "Frontend",
+    },
     {
       name: "Taseeb Counter",
       tags: ["JavaScript", "HTML", "CSS", "Utility", "Islamic"],
