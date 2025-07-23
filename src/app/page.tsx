@@ -6,6 +6,7 @@ import { Projects } from "@/components/projects";
 import { AboutProjects } from "@/components/about";
 import { Navigation } from "@/components/navigation";
 import { Experience } from "@/components/experience";
+import GitHubContributions from "@/components/github-contribution";
 
 export default function Portfolio() {
   return (
@@ -17,6 +18,7 @@ export default function Portfolio() {
         <Skills />
         <Projects />
         <Experience />
+        <GitHubContributions />
         <Contact />
       </main>
     </div>
