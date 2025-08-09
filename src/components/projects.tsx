@@ -67,6 +67,29 @@ const projects = {
       category: "Full Stack",
     },
     {
+      name: "Wallpaper Studio",
+      tags: [
+        "Next.js",
+        "Tailwind CSS",
+        "TypeScript",
+        "Image Generation",
+        "UI/UX",
+      ],
+      thumbnail: "",
+      previews: [
+        "https://ik.imagekit.io/c3l9vc9yj/FireShot%20Capture%20079%20-%20Wallpaper%20Studio%20-%20wallpaperstudio.netlify.app.png?updatedAt=1754771065595",
+      ],
+      short_description:
+        "A stylish desktop wallpaper generator built with modern frontend tech—upload an image, tweak style settings, and download instantly.",
+      long_description:
+        "Wallpaper Studio is a web app that lets users create beautiful desktop wallpapers from their own photos. It supports uploading background and optional foreground images, and features adjustable settings like blur, zoom, saturation, brightness, tint, and film grain, making it perfect for ultrawide or standard desktop resolutions. Built with a focus on responsive design and intuitive controls.",
+      try_link: "https://wallpaperstudio.netlify.app/",
+      source_link: "https://github.com/mansub-dev/wallpaper-studio",
+      start_date: "2025",
+      featured: false,
+      category: "Frontend",
+    },
+    {
       name: "PhoSate",
       tags: [
         "Next.js",
