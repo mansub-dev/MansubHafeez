@@ -67,6 +67,58 @@ const projects = {
       category: "Full Stack",
     },
     {
+      name: "Ventry",
+      tags: [
+        "Electron",
+        "React.js",
+        "Tailwind CSS",
+        "Next.js",
+        "Prisma",
+        "MongoDB",
+        "Inventory",
+        "Desktop App",
+        "Full Stack",
+      ],
+      thumbnail: "",
+      previews: [
+        "https://ik.imagekit.io/c3l9vc9yj/ventry.png?updatedAt=1755265244007",
+      ],
+      short_description:
+        "A desktop-first inventory system with cheque payments, email notifications, and print-ready customer/supplier records.",
+      long_description:
+        "Ventry is a desktop-focused, full-stack inventory management system built with Electron, React, Tailwind CSS, a Next.js backend, and Prisma on MongoDB. It covers sales, returns, expenses, and stock control—plus cheque payment flows, email alerts (invoices, low-stock, and due reminders), and print-optimized customer and supplier records. Designed for speed and reliability with offline-friendly UX and a modern component-driven UI.",
+      try_link: "",
+      source_link: "https://github.com/najmiter/fans-rms",
+      start_date: "June-July, 2025",
+      featured: false,
+      category: "Full Stack",
+    },
+    {
+      name: "Finance Flow",
+      tags: [
+        "Next.js",
+        "Tailwind CSS",
+        "Supabase",
+        "Prisma",
+        "TypeScript",
+        "Finance",
+        "Full Stack",
+      ],
+      thumbnail: "",
+      previews: [
+        "https://ik.imagekit.io/c3l9vc9yj/FireShot%20Capture%20080%20-%20Finance%20Flow%20-%20finance-flows.vercel.app.png?updatedAt=1755265401448",
+      ],
+      short_description:
+        "A app that stores daily sales and supplier payments in the system.",
+      long_description:
+        "A app that stores daily sales and supplier payments in the system. It features a user-friendly interface built with Nextjs and Tailwind CSS, allowing users to easily manage their sales and payments. The app uses Next.js for server-side rendering and Prisma for database management with Supabase. It is designed to be efficient and reliable, making it a great tool for small businesses.",
+      try_link: "https://finance-flows.vercel.app/",
+      source_link: "https://github.com/mansub-dev/finance-flow",
+      start_date: "August, 2025",
+      featured: false,
+      category: "Full Stack",
+    },
+    {
       name: "Wallpaper Studio",
       tags: [
         "Next.js",
@@ -85,7 +137,7 @@ const projects = {
         "Wallpaper Studio is a web app that lets users create beautiful desktop wallpapers from their own photos. It supports uploading background and optional foreground images, and features adjustable settings like blur, zoom, saturation, brightness, tint, and film grain, making it perfect for ultrawide or standard desktop resolutions. Built with a focus on responsive design and intuitive controls.",
       try_link: "https://wallpaperstudio.netlify.app/",
       source_link: "https://github.com/mansub-dev/wallpaper-studio",
-      start_date: "2025",
+      start_date: "August, 2025",
       featured: false,
       category: "Frontend",
     },
