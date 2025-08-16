@@ -249,6 +249,23 @@ const projects = {
       category: "Frontend",
     },
     {
+      name: "Quiz App",
+      tags: ["React js", "Tailwind", "Gemini Api", "Quiz Assessment"],
+      thumbnail: "",
+      previews: [
+        "https://ik.imagekit.io/c3l9vc9yj/FireShot%20Capture%20081%20-%20Quizzie%20-%20qizz.netlify.app.png?updatedAt=1755375544538",
+      ],
+      short_description:
+        "An interactive quiz app where users select a topic, attempt questions, and view their score.",
+      long_description:
+        "This Quiz App allows users to choose a topic and take quizzes powered by the Gemini API. After answering, they receive instant feedback and a final score displayed in numbers. Built with React and Tailwind CSS, it offers a clean and responsive UI with smooth quiz navigation and result tracking.",
+      try_link: "https://qizz.netlify.app/",
+      source_link: "https://github.com/mansub-dev/Quiz_App",
+      start_date: "June, 2024",
+      featured: false,
+      category: "Frontend",
+    },
+    {
       name: "Taseeb Counter",
       tags: ["JavaScript", "HTML", "CSS", "Utility", "Islamic"],
       thumbnail: "",
