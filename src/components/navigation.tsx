@@ -2,7 +2,17 @@
 
 import React from "react";
 import { Button } from "@/components/ui/button";
-import { Menu, X, Home, User, Code, Briefcase, Mail, Zap } from "lucide-react";
+import {
+  Menu,
+  X,
+  Home,
+  User,
+  Code,
+  Briefcase,
+  Mail,
+  Zap,
+  FileText,
+} from "lucide-react";
 
 const navItems = [
   { name: "Home", href: "#home", icon: Home },
@@ -11,6 +21,12 @@ const navItems = [
   { name: "Projects", href: "#projects", icon: Code },
   { name: "Experience", href: "#experience", icon: Briefcase },
   { name: "Contact", href: "#contact", icon: Mail },
+  {
+    name: "CV",
+    href: "/Mansub_Hafeez_CV.pdf",
+    icon: FileText,
+    external: true,
+  },
 ];
 
 export function Navigation() {
@@ -22,7 +38,10 @@ export function Navigation() {
     const handleScroll = () => {
       setScrolled(window.scrollY > 50);
 
-      const sections = navItems.map((item) => item.href.substring(1));
+      const sections = navItems
+        .filter((item) => !item.external) // skip CV
+        .map((item) => item.href.substring(1));
+
       const scrollPosition = window.scrollY + 100;
 
       for (const section of sections) {
@@ -46,7 +65,11 @@ export function Navigation() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const scrollToSection = (href: string) => {
+  const handleNavClick = (href: string, external?: boolean) => {
+    if (external) {
+      window.open(href, "_blank"); // opens CV in new tab
+      return;
+    }
     const element = document.getElementById(href.substring(1));
     if (element) {
       element.scrollIntoView({ behavior: "smooth" });
@@ -77,9 +100,9 @@ export function Navigation() {
                 return (
                   <button
                     key={item.name}
-                    onClick={() => scrollToSection(item.href)}
+                    onClick={() => handleNavClick(item.href, item.external)}
                     className={`relative px-4 py-2 rounded-xl text-sm font-medium transition-all duration-300 flex items-center gap-2 ${
-                      activeSection === item.href.substring(1)
+                      !item.external && activeSection === item.href.substring(1)
                         ? "text-white bg-blue-600/20"
                         : "text-slate-400 hover:text-white"
                     }`}
@@ -121,7 +144,7 @@ export function Navigation() {
                 return (
                   <button
                     key={item.name}
-                    onClick={() => scrollToSection(item.href)}
+                    onClick={() => handleNavClick(item.href, item.external)}
                     className="flex items-center gap-4 py-4 px-4 text-left text-slate-300 hover:text-white hover:bg-slate-700/50 rounded-xl transition-all duration-300"
                   >
                     <Icon className="w-5 h-5" />
@@ -137,17 +160,19 @@ export function Navigation() {
       {/* Floating Navigation Dots */}
       <div className="fixed right-8 top-1/2 transform -translate-y-1/2 z-50 hidden lg:block">
         <div className="flex flex-col space-y-4">
-          {navItems.map((item) => (
-            <button
-              key={item.name}
-              onClick={() => scrollToSection(item.href)}
-              className={`w-3 h-3 rounded-full transition-all duration-300 ${
-                activeSection === item.href.substring(1)
-                  ? "bg-blue-500 scale-125"
-                  : "bg-slate-600 hover:bg-slate-400"
-              }`}
-            />
-          ))}
+          {navItems
+            .filter((item) => !item.external) // skip CV for dots
+            .map((item) => (
+              <button
+                key={item.name}
+                onClick={() => handleNavClick(item.href)}
+                className={`w-3 h-3 rounded-full transition-all duration-300 ${
+                  activeSection === item.href.substring(1)
+                    ? "bg-blue-500 scale-125"
+                    : "bg-slate-600 hover:bg-slate-400"
+                }`}
+              />
+            ))}
         </div>
       </div>
     </>
