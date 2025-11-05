@@ -130,6 +130,27 @@ export function Contact() {
                         </div>
                       </div>
                     </div>
+                    {/* Linktree */}
+                    <div className="group hover:translate-x-1 sm:hover:translate-x-2 hover:scale-105 transition-all duration-300">
+                      <div className="flex items-center gap-3 sm:gap-4 p-3 sm:p-4 rounded-xl bg-slate-800/30 hover:bg-slate-700/30 transition-all duration-300 border border-slate-700/50 hover:border-slate-600">
+                        <div className="w-10 h-10 sm:w-12 sm:h-12 bg-gradient-to-r from-emerald-500 to-teal-500 rounded-lg flex items-center justify-center group-hover:scale-110 transition-transform flex-shrink-0">
+                          <Sparkles className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
+                        </div>
+                        <div className="min-w-0 flex-1">
+                          <h4 className="font-medium text-white group-hover:text-emerald-400 transition-colors text-sm sm:text-base">
+                            Linktree
+                          </h4>
+                          <a
+                            href="https://linktr.ee/mansubcodes"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-slate-400 hover:text-emerald-400 transition-colors text-sm sm:text-base break-all"
+                          >
+                            linktr.ee/mansubcodes
+                          </a>
+                        </div>
+                      </div>
+                    </div>
 
                     {/* Location */}
                     <div className="group hover:translate-x-1 sm:hover:translate-x-2 hover:scale-105 transition-all duration-300">
@@ -182,19 +203,24 @@ export function Contact() {
                         {[
                           "Frontend Development (React, Next.js)",
                           "Full-stack Web Applications",
+                          "Desktop Applications",
+                          "Mobile-responsive Design",
+                          "Backend & API Integration",
                           "UI/UX Implementation",
                           "Performance Optimization",
-                        ].map((service, index) => (
-                          <li
-                            key={service}
-                            className="flex items-center gap-3 group"
-                          >
-                            <div className="w-2 h-2 bg-gradient-to-r from-blue-400 to-purple-400 rounded-full group-hover:scale-125 transition-transform flex-shrink-0"></div>
-                            <span className="text-slate-300 group-hover:text-white transition-colors text-sm sm:text-base">
-                              {service}
-                            </span>
-                          </li>
-                        ))}
+                        ]
+                          .filter(Boolean)
+                          .map((service, index) => (
+                            <li
+                              key={index}
+                              className="flex items-center gap-3 group"
+                            >
+                              <div className="w-2 h-2 bg-gradient-to-r from-blue-400 to-purple-400 rounded-full group-hover:scale-125 transition-transform flex-shrink-0"></div>
+                              <span className="text-slate-300 group-hover:text-white transition-colors text-sm sm:text-base">
+                                {service}
+                              </span>
+                            </li>
+                          ))}
                       </ul>
                     </div>
 
