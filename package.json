@@ -15,7 +15,7 @@
     "framer-motion": "^12.11.3",
     "github-calendar": "^2.3.4",
     "lucide-react": "^0.510.0",
-    "next": "15.2.4",
+    "next": "15.2.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-github-calendar": "^4.5.9",
