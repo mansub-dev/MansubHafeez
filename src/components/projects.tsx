@@ -119,7 +119,7 @@ const projects = {
       category: "Full Stack",
     },
     {
-      name: "Flow Dek",
+      name: "Flow Desk",
       tags: [
         "Next.js",
         "Tailwind CSS",
@@ -130,9 +130,7 @@ const projects = {
         "Full Stack",
       ],
       thumbnail: "",
-      previews: [
-        "https://ik.imagekit.io/c3l9vc9yj/FireShot%20Capture%20080%20-%20Finance%20Flow%20-%20finance-flows.vercel.app.png?updatedAt=1755265401448",
-      ],
+      previews: ["https://ik.imagekit.io/c3l9vc9yj/attendance.png"],
       short_description:
         "A app that stores daily sales and payments with attendence of employees.",
       long_description:
