@@ -41,6 +41,31 @@ const projects = {
       category: "Full Stack",
     },
     {
+      name: "Scan Flow",
+      tags: [
+        "Next.js",
+        "Supabase",
+        "TypeScript",
+        "Tailwind CSS",
+        "Hero-ui",
+        "Barcodes",
+      ],
+      thumbnail: "",
+      previews: [
+        "https://ik.imagekit.io/c3l9vc9yj/FireShot%20Capture%20103%20-%20ScanFlow%20-%20scanflow.netlify.app.png",
+      ],
+      short_description:
+        "A full-stack Inventory System that works with barcode generation and scanning.",
+      long_description:
+        "Scan Flow is a full-stack inventory management system designed for fast, reliable stock handling through barcode generation and scanning. It streamlines product tracking, stock adjustments, supplier records, and activity logs while maintaining real-time data sync through Supabase. The system supports creating printable barcodes, scanning items directly via camera or external scanners, and managing inventory with a clean, responsive Next.js interface. Built with TypeScript, Tailwind CSS, and Hero-UI components, Scan Flow focuses on accuracy, efficiency, and ease of use for modern inventory operations",
+      try_link: "https://scanflow.netlify.app/",
+      source_link: "https://github.com/mansub-dev/scan-flow",
+      start_date: "November, 2025",
+      featured: false,
+      category: "Full Stack",
+    },
+
+    {
       name: "Leadflow CRM",
       tags: [
         "Next.js",
@@ -94,7 +119,7 @@ const projects = {
       category: "Full Stack",
     },
     {
-      name: "Finance Flow",
+      name: "Flow Desk",
       tags: [
         "Next.js",
         "Tailwind CSS",
@@ -105,16 +130,14 @@ const projects = {
         "Full Stack",
       ],
       thumbnail: "",
-      previews: [
-        "https://ik.imagekit.io/c3l9vc9yj/FireShot%20Capture%20080%20-%20Finance%20Flow%20-%20finance-flows.vercel.app.png?updatedAt=1755265401448",
-      ],
+      previews: ["https://ik.imagekit.io/c3l9vc9yj/attendance.png"],
       short_description:
-        "A app that stores daily sales and supplier payments in the system.",
+        "A app that stores daily sales and payments with attendence of employees.",
       long_description:
-        "A app that stores daily sales and supplier payments in the system. It features a user-friendly interface built with Nextjs and Tailwind CSS, allowing users to easily manage their sales and payments. The app uses Next.js for server-side rendering and Prisma for database management with Supabase. It is designed to be efficient and reliable, making it a great tool for small businesses.",
-      try_link: "https://finance-flows.vercel.app/",
-      source_link: "https://github.com/mansub-dev/finance-flow",
-      start_date: "August, 2025",
+        "A app that stores daily sales and payments with attendence of employees in the system. It features a user-friendly interface built with Nextjs and Tailwind CSS, allowing users to easily manage their sales and payments. The app uses Next.js for server-side rendering and Prisma for database management with Supabase. It is designed to be efficient and reliable, making it a great tool for small businesses.",
+      try_link: "https://flowdesk-pk.vercel.app/",
+      source_link: "https://github.com/mansub-dev/flow-desk",
+      start_date: "December, 2025",
       featured: false,
       category: "Full Stack",
     },
