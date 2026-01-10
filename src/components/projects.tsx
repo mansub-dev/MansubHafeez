@@ -142,6 +142,30 @@ const projects = {
       category: "Full Stack",
     },
     {
+      name: "Smart Hub",
+      tags: [
+        "Next.js",
+        "Tailwind CSS",
+        "Mongodb",
+        "Prisma",
+        "TypeScript",
+        "Clothing Store",
+        "Full Stack",
+      ],
+      thumbnail: "",
+      previews: ["https://ik.imagekit.io/c3l9vc9yj/Screenshot%202026-01-10%20142138.png"],
+      short_description:
+        "A online clothing store built with Next.js and Tailwind CSS.",
+      long_description:
+        "A online clothing store built with Next.js and Tailwind CSS. It features a user-friendly interface built with Nextjs and Tailwind CSS, allowing users to easily manage their sales and payments. The app uses Next.js for server-side rendering and Prisma for database management with MongoDB. It is designed to be efficient and reliable, making it a great tool for small businesses.",
+      try_link: "https://www.smarthubgt.com/",
+      source_link: "https://github.com/mansub-dev/smart-hub",
+      start_date: "January, 2026",
+      featured: false,
+      category: "Full Stack",
+    },
+
+    {
       name: "Wallpaper Studio",
       tags: [
         "Next.js",
@@ -452,11 +476,10 @@ export function Projects() {
                   }
                   size="sm"
                   onClick={() => setSelectedCategory(category)}
-                  className={`transition-all duration-300 ${
-                    selectedCategory === category
-                      ? "bg-gradient-to-r from-blue-600 to-purple-600 text-white border-0"
-                      : "border-slate-600 text-slate-300 hover:bg-slate-800 hover:text-white"
-                  }`}
+                  className={`transition-all duration-300 ${selectedCategory === category
+                    ? "bg-gradient-to-r from-blue-600 to-purple-600 text-white border-0"
+                    : "border-slate-600 text-slate-300 hover:bg-slate-800 hover:text-white"
+                    }`}
                 >
                   <Filter className="w-4 h-4 mr-2" />
                   {category}
@@ -470,9 +493,8 @@ export function Projects() {
             {displayedProjects.map((project, index) => (
               <div
                 key={project.name}
-                className={`group hover:-translate-y-2 transition-all duration-300 ${
-                  project.featured ? "lg:col-span-2" : ""
-                }`}
+                className={`group hover:-translate-y-2 transition-all duration-300 ${project.featured ? "lg:col-span-2" : ""
+                  }`}
               >
                 <Card className="relative bg-slate-800/30 backdrop-blur-sm border-slate-700 hover:border-slate-600 transition-all duration-300 h-full overflow-hidden">
                   {/* Project Image */}
