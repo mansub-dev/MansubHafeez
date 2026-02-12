@@ -64,7 +64,30 @@ const projects = {
       featured: false,
       category: "Full Stack",
     },
-
+    {
+      name: "Style Hub",
+      tags: [
+        "Next.js",
+        "Supabase",
+        "TypeScript",
+        "Tailwind CSS",
+        "Hero-ui",
+        "Barcodes",
+      ],
+      thumbnail: "",
+      previews: [
+        "https://ik.imagekit.io/c3l9vc9yj/Screenshot%202026-02-12%20194240.png",
+      ],
+      short_description:
+        "A full-stack Inventory System for salon. Having features like service and product management, booking, staff management, and more.",
+      long_description:
+        "Style Hub is a full-stack inventory management system designed for fast, reliable stock handling. It streamlines product tracking, stock adjustments, staff records, and activity logs while maintaining real-time data sync through Supabase. The system supports creating printable barcodes, scanning items directly via camera or external scanners, and managing inventory with a clean, responsive Next.js interface. Built with TypeScript, Tailwind CSS, and Hero-UI components, Scan Flow focuses on accuracy, efficiency, and ease of use for modern inventory operations",
+      try_link: "https://stylehubpk.vercel.app/",
+      source_link: "https://github.com/mansub-dev/style-hub",
+      start_date: "February, 2026",
+      featured: false,
+      category: "Full Stack",
+    },
     {
       name: "Leadflow CRM",
       tags: [
